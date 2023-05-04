@@ -11,7 +11,7 @@ h1 {
 }
 
 ul {
-  margin: 0 0 10px;
+  margin: 5 0 10px;
   padding: 0;
 }
 
@@ -19,7 +19,7 @@ li {
   color: #352f44;
   font-size: 18px;
   font-weight: 100;
-  height: 19px;
+  height: 20px;
   line-height: 1;
   list-style: none;
 }
@@ -47,15 +47,6 @@ li::first-letter {
   width: 80px;
 }
 
-.weather-temp .active {
-  color: black;
-  cursor: default;
-}
-
-.weather-temp .active:hover {
-  text-decoration: none;
-}
-
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
@@ -69,32 +60,4 @@ li::first-letter {
 
 .search-form {
   margin-bottom: 20px;
-}
-
-.weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  line-height: 40px;
-  border: 2px solid #004445;
-  border-radius: 8px;
-}
-
-.weather-forecast-day {
-  font-size: 18px;
-  color: #352f44;
-}
-
-.weather-forecast-temp {
-  font-size: 13px;
-  color: black;
-}
-
-.minimun-temp {
-  opacity: 0.6;
-  font-size: 16px;
-  color: #352f44;
-}
-
-.maximum-temp {
-  font-size: 16px;
 }
