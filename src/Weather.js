@@ -55,6 +55,16 @@ export default function Weather() {
           </div>
         </div>
       </div>
+      <small>
+        <a
+          href="https://github.com/cashmirB/new-weather-app-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open Source Code
+        </a>{" "}
+        by Cashmir Balajadia
+      </small>
     </div>
   );
 }
