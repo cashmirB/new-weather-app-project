@@ -17,7 +17,6 @@ function App() {
           </a>{" "}
           by Cashmir Balajadia
         </small>
-        ;
       </footer>
     </div>
   );
