@@ -8,6 +8,7 @@ export default function Weather(props) {
   const [info, setInfo] = useState({ result: false });
 
   function showInfo(response) {
+    console.log(response.data);
     setInfo({
       result: true,
       city: response.data.city,
@@ -31,14 +32,14 @@ export default function Weather(props) {
                   <input
                     type="search"
                     placeholder="Type a city.."
-                    class="form-control shadow-sm"
+                    className="form-control shadow-sm"
                   />
                 </div>
                 <div className="col-3">
                   <input
                     type="submit"
                     value="Search"
-                    class="form-control btn btn-success shadow-sm"
+                    className="form-control btn btn-success shadow-sm"
                   />
                 </div>
               </div>
